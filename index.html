@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>_3nyildarts</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Content/_3nyildarts.css" />
+    <script type="text/javascript" src="Content/_3nyildarts.head.js"></script>
+</head>
+<body>
+    <h1 align="center">3 nyilas darts kombinaciok</h1>
+    <div align="center" id="main" data-children-template="Main">
+        <div>
+            <input data-var="Name" placeholder="Dobas 1-180 kozott" />
+            <button data-event-click="Add">Give me the results!</button>
+        </div>
+        <ul data-hole="ListContainer">
+            <li data-template="ListItem">$!{Name}</li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="Content/_3nyildarts.min.js"></script>
+</body>
+</html>
